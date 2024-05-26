@@ -1,12 +1,139 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+</script>
+
+<!-- NavBar -->
+<div class="flex justify-center items-center w-full p-[0.625rem]">
+	<div
+		class="flex flex-row justify-between items-center w-full px-[1.25rem] py-[0.625rem] rounded-[0.3125rem] bg-[#282828]"
+	>
+		<!-- UserName -->
+		<button>
+			<div class="flex flex-row">
+				<span class="text-[2.25rem] text-[#fe8019]"> Lil </span>
+				<span class="text-[2.25rem] text-[#ebdbb2]"> Ailuropoda </span>
+			</div>
+		</button>
+		<!-- BurgerMenu Button -->
+		<button>
+			<div class="flex justify-center items-center">
+				<svg
+					width="50"
+					height="50"
+					viewBox="0 0 50 50"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						d="M10.4167 25H39.5833M10.4167 14.5833H39.5833M10.4167 35.4167H39.5833"
+						stroke="#A89984"
+						stroke-width="4.16667"
+						stroke-linecap="round"
+					/>
+				</svg>
+			</div>
+		</button>
+	</div>
+</div>
+
+<!-- Body -->
+<div class="h-full"></div>
+
+<!-- Footer -->
+<div
+	class="flex flex-col justify-center items-start w-full py-[0.625rem] space-y-[0.625rem] bg-[#282828]"
+>
+	<!-- Social Media Icon -->
+	<div class="flex flex-row justify-center items-center w-full p-[0.625rem] space-x-[1.88rem]">
+		<!-- GitHub -->
+		<button>
+			<div class="flex justify-center items-center w-[2.5rem] h-[2.5rem]">
+				<svg
+					width="40"
+					height="40"
+					viewBox="0 0 40 40"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<g clip-path="url(#clip0_44_55)">
+						<path
+							fill-rule="evenodd"
+							clip-rule="evenodd"
+							d="M20.0165 0C8.94791 0 0 9.01388 0 20.1653C0 29.0792 5.73324 36.6246 13.6868 39.2952C14.6812 39.4959 15.0454 38.8613 15.0454 38.3274C15.0454 37.8599 15.0126 36.2575 15.0126 34.5879C9.4445 35.79 8.28498 32.1841 8.28498 32.1841C7.39015 29.847 6.06429 29.2463 6.06429 29.2463C4.24185 28.011 6.19704 28.011 6.19704 28.011C8.21861 28.1446 9.27938 30.081 9.27938 30.081C11.0686 33.1522 13.9518 32.2844 15.1118 31.7502C15.2773 30.4481 15.8079 29.5467 16.3713 29.046C11.9303 28.5785 7.25781 26.8425 7.25781 19.0967C7.25781 16.8932 8.05267 15.0905 9.31216 13.6884C9.11344 13.1877 8.41733 11.1174 9.51128 8.34644C9.51128 8.34644 11.2014 7.81217 15.0122 10.4164C16.6438 9.97495 18.3263 9.7504 20.0165 9.74851C21.7067 9.74851 23.4295 9.98246 25.0205 10.4164C28.8317 7.81217 30.5218 8.34644 30.5218 8.34644C31.6158 11.1174 30.9192 13.1877 30.7205 13.6884C32.0132 15.0905 32.7753 16.8932 32.7753 19.0967C32.7753 26.8425 28.1028 28.5449 23.6287 29.046C24.358 29.6802 24.9873 30.882 24.9873 32.7851C24.9873 35.4893 24.9545 37.6596 24.9545 38.327C24.9545 38.8613 25.3192 39.4959 26.3132 39.2956C34.2667 36.6242 39.9999 29.0792 39.9999 20.1653C40.0327 9.01388 31.052 0 20.0165 0Z"
+							fill="#EBDBB2"
+						/>
+					</g>
+					<defs>
+						<clipPath id="clip0_44_55">
+							<rect width="40" height="40" fill="white" />
+						</clipPath>
+					</defs>
+				</svg>
+			</div>
+		</button>
+		<!-- Linkedin -->
+		<button>
+			<div class="flex justify-center items-center w-[2.5rem] h-[2.5rem]">
+				<svg
+					width="40"
+					height="40"
+					viewBox="0 0 40 40"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<g clip-path="url(#clip0_44_57)">
+						<path
+							d="M37.0391 0H2.95312C1.32031 0 0 1.28906 0 2.88281V37.1094C0 38.7031 1.32031 40 2.95312 40H37.0391C38.6719 40 40 38.7031 40 37.1172V2.88281C40 1.28906 38.6719 0 37.0391 0ZM11.8672 34.0859H5.92969V14.9922H11.8672V34.0859ZM8.89844 12.3906C6.99219 12.3906 5.45312 10.8516 5.45312 8.95312C5.45312 7.05469 6.99219 5.51562 8.89844 5.51562C10.7969 5.51562 12.3359 7.05469 12.3359 8.95312C12.3359 10.8438 10.7969 12.3906 8.89844 12.3906ZM34.0859 34.0859H28.1562V24.8047C28.1562 22.5938 28.1172 19.7422 25.0703 19.7422C21.9844 19.7422 21.5156 22.1562 21.5156 24.6484V34.0859H15.5938V14.9922H21.2812V17.6016H21.3594C22.1484 16.1016 24.0859 14.5156 26.9688 14.5156C32.9766 14.5156 34.0859 18.4688 34.0859 23.6094V34.0859Z"
+							fill="#EBDBB2"
+						/>
+					</g>
+					<defs>
+						<clipPath id="clip0_44_57">
+							<rect width="40" height="40" fill="white" />
+						</clipPath>
+					</defs>
+				</svg>
+			</div>
+		</button>
+		<!-- Mail -->
+		<button>
+			<div class="flex justiitems-center w-[2.5rem]">
+				<svg
+					width="40"
+					height="34"
+					viewBox="0 0 40 34"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<rect
+						x="2.03333"
+						y="2.76673"
+						width="35.9333"
+						height="28.4667"
+						rx="4.06667"
+						stroke="#EBDBB2"
+						stroke-width="4.06667"
+					/>
+					<path
+						d="M3.99998 4.80005L15.0684 13.2397C17.4404 15.0484 18.6264 15.9527 20 15.9527C21.3735 15.9527 22.5595 15.0484 24.9316 13.2397L36 4.80005"
+						stroke="#EBDBB2"
+						stroke-width="4.06667"
+					/>
+				</svg>
+			</div>
+		</button>
+	</div>
+	<!-- Copyright -->
+	<div class="flex justify-center items-center w-full">
+		<span class="text-[1rem] text-[#a89984]"> © 2024 Steve Cheng. All rights reserved.</span>
+	</div>
+</div>
 
 <style>
 	:global(html) {
 		background-color: #3c3836;
 		background-size: 2.5rem 2.5rem;
-		background-image: linear-gradient(to right, rgba(168, 153, 132, 0.3) 0.3px, transparent 0.3px),
-			linear-gradient(to bottom, rgba(168, 153, 132, 0.3) 0.3px, transparent 0.3px);
+		background-image: linear-gradient(to right, rgba(168, 153, 132, 0.2) 0.3px, transparent 0.3px),
+			linear-gradient(to bottom, rgba(168, 153, 132, 0.2) 0.3px, transparent 0.3px);
 		background-position: -1rem -1rem;
 	}
 </style>

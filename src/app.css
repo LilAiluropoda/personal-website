@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: 'JBM';
+		font-style: normal;
+		font-weight: normal;
+		src:
+			local(''),
+			url('/fonts/webfonts/JetBrainsMono-Regular.woff2') format('woff2'),
+			url('/fonts/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+	}
+
+	@font-face {
+		font-family: 'JBM';
+		font-style: normal;
+		font-weight: bold;
+		src:
+			local(''),
+			url('/fonts/webfonts/JetBrainsMono-Bold.woff2') format('woff2'),
+			url('/fonts/ttf/JetbrainsMono-Bold.ttf') format('truetype');
+	}
+}
