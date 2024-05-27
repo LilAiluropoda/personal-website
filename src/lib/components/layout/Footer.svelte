@@ -2,13 +2,13 @@
 </script>
 
 <!-- Footer -->
-<div
+<footer
 	class="flex flex-col justify-center items-start w-full py-[0.625rem] space-y-[0.625rem] bg-[#282828]"
 >
 	<!-- Social Media Icon -->
 	<div class="flex flex-row justify-center items-center w-full p-[0.625rem] space-x-[1.88rem]">
 		<!-- GitHub -->
-		<button>
+		<a href="https://github.com/LilAiluropoda">
 			<div class="flex justify-center items-center w-[2.5rem] h-[2.5rem]">
 				<svg
 					width="40"
@@ -32,9 +32,9 @@
 					</defs>
 				</svg>
 			</div>
-		</button>
+		</a>
 		<!-- Linkedin -->
-		<button>
+		<a href="https://www.linkedin.com/in/cyshi0626/">
 			<div class="flex justify-center items-center w-[2.5rem] h-[2.5rem]">
 				<svg
 					width="40"
@@ -56,9 +56,9 @@
 					</defs>
 				</svg>
 			</div>
-		</button>
+		</a>
 		<!-- Mail -->
-		<button>
+		<a href="mailto:bcheng8798@gmail.com">
 			<div class="flex justiitems-center w-[2.5rem]">
 				<svg
 					width="40"
@@ -83,10 +83,10 @@
 					/>
 				</svg>
 			</div>
-		</button>
+		</a>
 	</div>
 	<!-- Copyright -->
 	<div class="flex justify-center items-center w-full">
 		<span class="text-[1rem] text-[#a89984]"> © 2024 Steve Cheng. All rights reserved.</span>
 	</div>
-</div>
+</footer>
