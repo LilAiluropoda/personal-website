@@ -4,9 +4,11 @@
 	import Footer from '$lib/components/layout/Footer.svelte';
 </script>
 
-<div class="flex flex-col justify-between w-full min-h-[100vh]">
-	<Navbar />
-	<slot />
+<div class="flex flex-col justify-between w-full h-fit">
+	<div class="flex flex-col-reverse justify-between w-full min-h-screen">
+		<slot />
+		<Navbar />
+	</div>
 	<Footer />
 </div>
 

@@ -5,7 +5,7 @@
 <!-- NavBar -->
 <nav class="sticky top-0 flex flex-col justify-center items-center w-full p-[0.625rem]">
 	<div
-		class="flex flex-row justify-between items-center z-10 w-full px-[1.25rem] py-[0.625rem] rounded-[0.3125rem] bg-[#282828]"
+		class="flex flex-row justify-between items-center z-20 w-full px-[1.25rem] py-[0.625rem] rounded-[0.3125rem] bg-[#282828]"
 	>
 		<!-- UserName -->
 		<a href="/" on:click={() => (menuOpen = false)}>
@@ -15,7 +15,7 @@
 			</div>
 		</a>
 		<!-- BurgerMenu Button -->
-		<button id="menuButton" type="button" on:click={() => (menuOpen = !menuOpen)} {menuOpen}>
+		<button id="menuButton" type="button" on:click={() => (menuOpen = !menuOpen)}>
 			<div class="relative flex justify-center items-center">
 				<svg
 					width="50"
@@ -39,7 +39,7 @@
 		id="megaMenu"
 		class:show={menuOpen}
 		class:hide={!menuOpen}
-		class="absolute z-0 top-[5.5rem] w-full p-[0.625rem]"
+		class="absolute z-10 top-[5.5rem] w-full p-[0.625rem]"
 		role="menu"
 	>
 		<div
