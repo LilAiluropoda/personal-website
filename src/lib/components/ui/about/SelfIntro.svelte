@@ -6,7 +6,7 @@
 
 <!-- Container/Self-Intro -->
 <div class={containerStyle}>
-	<!-- Container Title -->:w
+	<!-- Container Title -->
 
 	<span class={containerTitleStyle}>
 		{'> cat ~/readme.md'}
