@@ -1,0 +1,44 @@
+[
+	{
+		"projectID": "personal-website",
+		"projectName": "Personal Website",
+		"previewImage": "/images/projects/personal-website.png",
+		"tags": ["SvelteKit", "TypeScript", "HTML", "CSS", "Tailwind CSS"],
+		"description": "personal-website.md"
+	},
+	{
+		"projectID": "9kickshop",
+		"projectName": "9Kick Shopping Platform",
+		"previewImage": "/images/projects/9kickshop.png",
+		"tags": ["SvelteKit", "TypeScript", "HTML", "CSS", "Tailwind CSS"],
+		"description": "9kickshop.md"
+	},
+	{
+		"projectID": "gruvbox-rice",
+		"projectName": "Linux Rice",
+		"previewImage": "/images/projects/gruvbox-rice.png",
+		"tags": ["Shell", "CSS"],
+		"description": "gruvbox-rice.md"
+	},
+	{
+		"projectID": "vehicle-price-analysis",
+		"projectName": "Car Price Analysis",
+		"previewImage": "/images/projects/vehicle-price-analysis.png",
+		"tags": ["Python", "SciKit-Learn", "Matplotlib"],
+		"description": "vehicle-price-analysis.md"
+	},
+	{
+		"projectID": "pc-sales-system",
+		"projectName": "Computer Sales System",
+		"previewImage": "/images/projects/pc-sales-system.jpg",
+		"tags": ["Java", "SQL"],
+		"description": "pc-sales-system.md"
+	},
+	{
+		"projectID": "herb-text-analysis",
+		"projectName": "Herbal Text Mining",
+		"previewImage": "/images/projects/herb-text-analysis.png",
+		"tags": ["Python", "Matplotlib"],
+		"description": "herb-text-analysis.md"
+	}
+]

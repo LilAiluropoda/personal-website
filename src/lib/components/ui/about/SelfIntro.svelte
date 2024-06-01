@@ -11,17 +11,19 @@
 	<span class={containerTitleStyle}>
 		{'> cat ~/readme.md'}
 	</span>
-	<div class="flex flex-col items-center">
+	<div class="flex flex-col items-center md:flex-row-reverse">
 		<!-- Image -->
-		<div class="flex flex-col justify-center items-center py-[1rem]">
+		<div
+			class="flex flex-col justify-center items-center py-[1rem] space-y-[1rem] md:w-fit md:px-[2rem]"
+		>
 			<img
 				src={Propic}
 				alt="The Great Gatsby Himself"
 				class="backdrop-grayscale object-contain w-[11.875rem] h-[11.875rem] rounded-[0.3125rem]"
 			/>
 			<!-- Name -->
-			<div class="flex justify-center w-full">
-				<span class="text-[2rem] text-[#ebdbb2] font-bold"> Steve Cheng </span>
+			<div class="flex justify-center w-fit">
+				<span class="text-[2rem] text-[#ebdbb2] font-bold text-nowrap"> Steve Cheng </span>
 			</div>
 		</div>
 		<!-- Paragraph -->

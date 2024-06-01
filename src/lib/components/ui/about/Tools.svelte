@@ -1,40 +1,13 @@
 <script lang="ts">
+	import { mapping } from '$lib/components/ui/common/IconMapper.svelte';
+	import TechStackItem from '$lib/components/ui/common/TechStackItem.svelte';
+
 	export let containerStyle: string;
 	export let containerTitleStyle: string;
 
-	// Dev Environment
-	let DEStack = new Map([
-		['Arch Linux', 'Arch'],
-		['Git', 'Git'],
-		['Vim', 'Vim'],
-		['VS Code', 'VSCode']
-	]);
-	// Web dev
-	let WDStack = new Map([
-		['SvelteKit', 'Svelte'],
-		['Vite.js', 'Vite'],
-		['Flask', 'Flask']
-	]);
-	// ML
-	let MLStack = new Map([
-		['PyTorch', 'PyTorch'],
-		['SciKit-Learn', 'SKLearn'],
-		['Pandas', 'Pandas'],
-		['Matplotlib', 'Matplotlib'],
-		['Selenium', 'Selenium']
-	]);
-
-	DEStack.forEach((value, key) => {
-		DEStack.set(key, `/src/lib/images/about/techstack/dev_env/${value}.svg`);
-	});
-
-	WDStack.forEach((value, key) => {
-		WDStack.set(key, `/src/lib/images/about/techstack/web_dev/${value}.svg`);
-	});
-
-	MLStack.forEach((value, key) => {
-		MLStack.set(key, `/src/lib/images/about/techstack/machine-learn/${value}.svg`);
-	});
+	const DEStack = mapping(['Arch Linux', 'Git', 'Vim', 'VS Code']);
+	const WDStack = mapping(['SvelteKit', 'Vite.js', 'Flask']);
+	const MLStack = mapping(['PyTorch', 'SciKit-Learn', 'Pandas', 'Matplotlib', 'Selenium']);
 </script>
 
 <div class={containerStyle}>
@@ -54,7 +27,7 @@
 				{#each [...DEStack] as [key, value]}
 					<li class="flex flex-row justify-start items-center space-x-[0.625rem]">
 						<img src={value} alt={key} class="h-[1.875rem] w-[1.875rem]" />
-						<span class="text-[1.25rem] text-[#a89984]"> {key} </span>
+						<span class="text-[1.25rem] text-[#a89984] text-start"> {key} </span>
 					</li>
 				{/each}
 			</ul>
@@ -66,7 +39,7 @@
 				{#each [...WDStack] as [key, value]}
 					<li class="flex flex-row justify-start items-center space-x-[0.625rem]">
 						<img src={value} alt={key} class="h-[1.875rem] w-[1.875rem]" />
-						<span class="text-[1.25rem] text-[#a89984]"> {key} </span>
+						<span class="text-[1.25rem] text-[#a89984] text-start"> {key} </span>
 					</li>
 				{/each}
 			</ul>
@@ -78,7 +51,7 @@
 				{#each [...MLStack] as [key, value]}
 					<li class="flex flex-row justify-start items-center space-x-[0.625rem]">
 						<img src={value} alt={key} class="h-[1.875rem] w-[1.875rem]" />
-						<span class="text-[1.25rem] text-[#a89984]"> {key} </span>
+						<span class="text-[1.25rem] text-[#a89984] text-start"> {key} </span>
 					</li>
 				{/each}
 			</ul>
