@@ -1,0 +1,72 @@
+diff --git a/src/renderers/Heading.svelte b/src/renderers/Heading.svelte
+index 7c6346b7fc82988ace13c11022cb57fb99f21d78..11bbf145fd9e01a252d63e591a6898e730a64489 100644
+--- a/src/renderers/Heading.svelte
++++ b/src/renderers/Heading.svelte
+@@ -14,17 +14,36 @@
+ </script>
+ 
+ {#if depth === 1}
+-  <h1 {id}><slot></slot></h1>
++  <h1 {id}>// <slot></slot></h1>
+ {:else if depth === 2}
+-  <h2 {id}><slot></slot></h2>
++  <h2 {id}>// <slot></slot></h2>
+ {:else if depth === 3}
+-  <h3 {id}><slot></slot></h3>
++  <h3 {id}>// <slot></slot></h3>
+ {:else if depth === 4}
+-  <h4 {id}><slot></slot></h4>
++  <h4 {id}>// <slot></slot></h4>
+ {:else if depth === 5}
+-  <h5 {id}><slot></slot></h5>
++  <h5 {id}>// <slot></slot></h5>
+ {:else if depth === 6}
+-  <h6 {id}><slot></slot></h6>
++  <h6 {id}>// <slot></slot></h6>
+ {:else}
+   {raw}
+ {/if}
++
++<style>
++  h1 {
++    color:#b8bb26;
++    font-size: 1.875rem;
++    font-weight: bold;
++  }
++  
++  h2 {
++    color: #98971a;
++    font-size: 1.625rem;
++    font-weight: bold;
++  }
++  
++  h3 {
++    color: #757418;
++    font-size: 1.5rem;
++  }
++</style>
+diff --git a/src/renderers/ListItem.svelte b/src/renderers/ListItem.svelte
+index bc52876dfb20418197b2b3bb29bab06c6350f46c..e9d7eece56df7e04acef0435b1ab59243c646574 100644
+--- a/src/renderers/ListItem.svelte
++++ b/src/renderers/ListItem.svelte
+@@ -1 +1,7 @@
+ <li><slot></slot></li>
++<style>
++li {
++  color: #A89984;
++  font-size: 1.25rem;
++}
++</style>
+diff --git a/src/renderers/Paragraph.svelte b/src/renderers/Paragraph.svelte
+index ca134c613085adf2c9827672270971734785f177..4050ee7a5c3de5239c2fae1ebb4d970580b562f2 100644
+--- a/src/renderers/Paragraph.svelte
++++ b/src/renderers/Paragraph.svelte
+@@ -1 +1,8 @@
+ <p><slot></slot></p>
++
++<style>
++p {
++  color: #A89984;
++  font-size: 1.25rem;
++}
++</style>
