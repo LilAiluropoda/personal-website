@@ -6,8 +6,15 @@
 	export let containerTitleStyle: string;
 
 	const DEStack = mapping(['Arch Linux', 'Git', 'Vim', 'VS Code']);
-	const WDStack = mapping(['SvelteKit', 'Vite.js', 'Flask']);
-	const MLStack = mapping(['PyTorch', 'SciKit-Learn', 'Pandas', 'Matplotlib', 'Selenium']);
+	const WDStack = mapping(['SvelteKit', 'Vite.js', 'Flask', 'AWS']);
+	const MLStack = mapping([
+		'PyTorch',
+		'SciKit-Learn',
+		'Pandas',
+		'Matplotlib',
+		'Selenium',
+		'LangChain'
+	]);
 </script>
 
 <div class={containerStyle}>

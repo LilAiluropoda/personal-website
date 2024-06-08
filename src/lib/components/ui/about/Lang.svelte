@@ -13,6 +13,7 @@
 		'TypeScript',
 		'VBA',
 		'Shell',
+		'Lua',
 		'Powershell',
 		'SQL',
 		'HTML',

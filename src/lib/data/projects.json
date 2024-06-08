@@ -24,7 +24,7 @@
 		"projectID": "vehicle-price-analysis",
 		"projectName": "Car Price Analysis",
 		"previewImage": "/images/projects/vehicle-price-analysis.png",
-		"tags": ["Python", "SciKit-Learn", "Matplotlib"],
+		"tags": ["Python", "SciKit-Learn", "Matplotlib", "Selenium"],
 		"description": "vehicle-price-analysis.md"
 	},
 	{

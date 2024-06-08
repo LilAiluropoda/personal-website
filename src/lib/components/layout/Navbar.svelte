@@ -37,8 +37,8 @@
 	<!-- Menu -->
 	<div
 		id="megaMenu"
-		class:show={menuOpen}
-		class:hide={!menuOpen}
+		class:show={menuOpen === true}
+		class:hide={menuOpen === false}
 		class="absolute z-10 top-[5.5rem] w-full p-[0.625rem]"
 		role="menu"
 	>

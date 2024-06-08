@@ -9,6 +9,7 @@
 			['TypeScript', 'TypeScript'],
 			['VBA', 'VBA'],
 			['Shell', 'Bash'],
+			['Lua', 'Lua'],
 			['Powershell', 'Powershell'],
 			['SQL', 'SQL'],
 			['HTML', 'HTML5'],
@@ -23,12 +24,16 @@
 			['SvelteKit', 'Svelte'],
 			['Vite.js', 'Vite'],
 			['Flask', 'Flask'],
+			['AWS', 'AWS'],
 			// ML
 			['PyTorch', 'PyTorch'],
 			['SciKit-Learn', 'SKLearn'],
 			['Pandas', 'Pandas'],
 			['Matplotlib', 'Matplotlib'],
-			['Selenium', 'Selenium']
+			['Selenium', 'Selenium'],
+			['LangChain', 'Meme'],
+			// Finance
+			['Bloomberg Terminal', 'Meme']
 		]);
 
 		let res = new Map();

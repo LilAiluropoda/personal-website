@@ -5,8 +5,8 @@
 		"type": "WRK",
 		"title": "Data Analytic Intern",
 		"org": "Société Générale CIB",
-		"tags": ["Python"],
-		"content": "I have no idea what I am doingI have no idea what I am doingI have no idea what I am doing"
+		"tags": ["Python", "LangChain"],
+		"content": "Can't say, signed an NDA ¯\\_(ツ)_/¯"
 	},
 	{
 		"ID": 9,
@@ -15,7 +15,7 @@
 		"title": "AI&Data Consulting Intern",
 		"org": "Deloitte Advisory Ltd.",
 		"tags": ["SvelteKit", "TypeScript"],
-		"content": "I have no idea what I am doingI have no idea what I am doingI have no idea what I am doing"
+		"content": "Hosted several public lectures on GenAI applications in a local university; Developed an enterprise data platform UI Demo for a local major bank; Assisted in building a pitch deck for a multi-national hospitality group."
 	},
 	{
 		"ID": 8,
@@ -24,16 +24,16 @@
 		"title": "Analyst Programmer Intern",
 		"org": "Hong Kong Monetary Authority",
 		"tags": ["VBA", "Bloomberg Terminal"],
-		"content": "I have no idea what I am doingI have no idea what I am doingI have no idea what I am doing"
+		"content": "Implemented an efficient automated risk assessment system for ingesting gigabytes of data; Conducted different financial analyst on different asset classes in APAC market."
 	},
 	{
 		"ID": 7,
 		"year": 2023,
 		"type": "EDU",
 		"title": "Bloomberg Market Concept",
-		"org": "Bloomberg",
-		"tags": [],
-		"content": "I have no idea what I am doingI have no idea what I am doingI have no idea what I am doing"
+		"org": "Bloomberg L.P.",
+		"tags": ["Bloomberg Terminal"],
+		"content": "The program provides a comprehensive understanding of various financial concepts and the functioning of global financial markets. It also covers a wide range of topics, including economics, fixed income, equities, currencies, and commodities."
 	},
 	{
 		"ID": 6,
@@ -41,8 +41,8 @@
 		"type": "EDU",
 		"title": "AWS Cloud Practitioner",
 		"org": "Amazon Web Services",
-		"tags": [],
-		"content": "I have no idea what I am doingI have no idea what I am doingI have no idea what I am doing"
+		"tags": ["AWS"],
+		"content": "The AWS Cloud Practitioner certification covers essential topics such as cloud concepts, AWS core services, security and compliance, pricing and billing, and architectural best practices. It provides a broad overview of the AWS Cloud and its key components, enabling individuals to grasp the fundamentals of cloud computing."
 	},
 	{
 		"ID": 5,
@@ -51,7 +51,7 @@
 		"title": "Software Engineering Intern",
 		"org": "Hong Kong Exchange & Clearing Ltd.",
 		"tags": ["Python", "Shell"],
-		"content": "I have no idea what I am doingI have no idea what I am doingI have no idea what I am doing"
+		"content": "Developed a server configuration report generator for HKEX Client; Developed a function menu along with several shell scripts for market system maintenance; Tested, enhanced and integrated a experimental log monitoring engine into existing market data systems."
 	},
 	{
 		"ID": 4,
@@ -59,8 +59,8 @@
 		"type": "ECA",
 		"title": "AWS Educate Ambassador",
 		"org": "Amazon Web Services",
-		"tags": [],
-		"content": "I have no idea what I am doingI have no idea what I am doingI have no idea what I am doing"
+		"tags": ["AWS"],
+		"content": "Received training on AWS Technology; Hosted several talks on Web3 Topics."
 	},
 	{
 		"ID": 3,
@@ -69,7 +69,7 @@
 		"title": "Academic Exchange",
 		"org": "University of North Carolina, CH",
 		"tags": ["Python", "PyTorch", "Matplotlib"],
-		"content": "I have no idea what I am doingI have no idea what I am doingI have no idea what I am doing"
+		"content": "I love UNC. Travelled around US to explore foreign food and sceneries, made a lot of great local friends; Also took several ML courses."
 	},
 	{
 		"ID": 2,
@@ -78,7 +78,7 @@
 		"title": "Society President",
 		"org": "CUHK Computer Science Society",
 		"tags": [],
-		"content": "I have no idea what I am doingI have no idea what I am doingI have no idea what I am doing"
+		"content": "Being the leader for the first time, I had fun and organized numerous events for sharing practical IT knowledge and the industry landscape."
 	},
 	{
 		"ID": 1,
@@ -87,6 +87,6 @@
 		"title": "The Beginning",
 		"org": "The Chinese University of Hong Kong",
 		"tags": [],
-		"content": "I have no idea what I am doingI have no idea what I am doingI have no idea what I am doing"
+		"content": "The start of my Computer Science journey, CUHK Computer Science graduating in 2025 Summer."
 	}
 ]
