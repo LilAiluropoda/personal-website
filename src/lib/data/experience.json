@@ -1,0 +1,92 @@
+[
+	{
+		"ID": 10,
+		"year": 2024,
+		"type": "WRK",
+		"title": "Data Analytic Intern",
+		"org": "Société Générale CIB",
+		"tags": ["Python"],
+		"content": "I have no idea what I am doingI have no idea what I am doingI have no idea what I am doing"
+	},
+	{
+		"ID": 9,
+		"year": 2024,
+		"type": "WRK",
+		"title": "AI&Data Consulting Intern",
+		"org": "Deloitte Advisory Ltd.",
+		"tags": ["SvelteKit", "TypeScript"],
+		"content": "I have no idea what I am doingI have no idea what I am doingI have no idea what I am doing"
+	},
+	{
+		"ID": 8,
+		"year": 2023,
+		"type": "WRK",
+		"title": "Analyst Programmer Intern",
+		"org": "Hong Kong Monetary Authority",
+		"tags": ["VBA", "Bloomberg Terminal"],
+		"content": "I have no idea what I am doingI have no idea what I am doingI have no idea what I am doing"
+	},
+	{
+		"ID": 7,
+		"year": 2023,
+		"type": "EDU",
+		"title": "Bloomberg Market Concept",
+		"org": "Bloomberg",
+		"tags": [],
+		"content": "I have no idea what I am doingI have no idea what I am doingI have no idea what I am doing"
+	},
+	{
+		"ID": 6,
+		"year": 2023,
+		"type": "EDU",
+		"title": "AWS Cloud Practitioner",
+		"org": "Amazon Web Services",
+		"tags": [],
+		"content": "I have no idea what I am doingI have no idea what I am doingI have no idea what I am doing"
+	},
+	{
+		"ID": 5,
+		"year": 2023,
+		"type": "WRK",
+		"title": "Software Engineering Intern",
+		"org": "Hong Kong Exchange & Clearing Ltd.",
+		"tags": ["Python", "Shell"],
+		"content": "I have no idea what I am doingI have no idea what I am doingI have no idea what I am doing"
+	},
+	{
+		"ID": 4,
+		"year": 2023,
+		"type": "ECA",
+		"title": "AWS Educate Ambassador",
+		"org": "Amazon Web Services",
+		"tags": [],
+		"content": "I have no idea what I am doingI have no idea what I am doingI have no idea what I am doing"
+	},
+	{
+		"ID": 3,
+		"year": 2023,
+		"type": "EDU",
+		"title": "Academic Exchange",
+		"org": "University of North Carolina, CH",
+		"tags": ["Python", "PyTorch", "Matplotlib"],
+		"content": "I have no idea what I am doingI have no idea what I am doingI have no idea what I am doing"
+	},
+	{
+		"ID": 2,
+		"year": 2022,
+		"type": "ECA",
+		"title": "Society President",
+		"org": "CUHK Computer Science Society",
+		"tags": [],
+		"content": "I have no idea what I am doingI have no idea what I am doingI have no idea what I am doing"
+	},
+	{
+		"ID": 1,
+		"year": 2020,
+		"type": "EDU",
+		"title": "The Beginning",
+		"org": "The Chinese University of Hong Kong",
+		"tags": [],
+		"content": "I have no idea what I am doingI have no idea what I am doingI have no idea what I am doing"
+	}
+]

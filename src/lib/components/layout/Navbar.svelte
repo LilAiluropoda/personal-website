@@ -64,12 +64,6 @@
 					<span class="text-[2rem] text-[#ebdbb2] group-hover:text-[#83a598]"> Experience </span>
 				</div>
 			</a>
-			<a href="/blog/" on:click={() => (menuOpen = !menuOpen)}>
-				<div class="group flex flex-row p-[0.625rem] space-x-[0.625rem]">
-					<span class="text-[1.75rem] text-[#a89984]"> >> </span>
-					<span class="text-[2rem] text-[#ebdbb2] group-hover:text-[#fabd2f]"> Blog </span>
-				</div>
-			</a>
 		</div>
 	</div>
 </nav>

@@ -3,14 +3,14 @@
 		"projectID": "personal-website",
 		"projectName": "Personal Website",
 		"previewImage": "/images/projects/personal-website.png",
-		"tags": ["SvelteKit", "TypeScript", "HTML", "CSS", "Tailwind CSS"],
+		"tags": ["SvelteKit", "TypeScript", "CSS", "Tailwind CSS"],
 		"description": "personal-website.md"
 	},
 	{
 		"projectID": "9kickshop",
 		"projectName": "9Kick Shopping Platform",
 		"previewImage": "/images/projects/9kickshop.png",
-		"tags": ["SvelteKit", "TypeScript", "HTML", "CSS", "Tailwind CSS"],
+		"tags": ["SvelteKit", "TypeScript", "CSS", "Tailwind CSS"],
 		"description": "9kickshop.md"
 	},
 	{
