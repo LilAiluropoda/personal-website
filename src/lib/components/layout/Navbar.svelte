@@ -10,8 +10,8 @@
 		<!-- UserName -->
 		<a href="/" on:click={() => (menuOpen = false)}>
 			<div class="flex flex-row">
-				<span class="text-[2.25rem] text-[#fe8019]"> Lil </span>
-				<span class="text-[2.25rem] text-[#ebdbb2]"> Ailuropoda </span>
+				<span class="text-[1.75rem] sm:text-[2.25rem] text-[#fe8019]"> Lil </span>
+				<span class="text-[1.75rem] sm:text-[2.25rem] text-[#ebdbb2]"> Ailuropoda </span>
 			</div>
 		</a>
 		<!-- BurgerMenu Button -->
