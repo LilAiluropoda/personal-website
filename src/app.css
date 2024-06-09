@@ -23,3 +23,13 @@
 			url('/fonts/ttf/JetbrainsMono-Bold.ttf') format('truetype');
 	}
 }
+
+html {
+	font-size: 0.75rem;
+}
+
+@media (min-width: 640px) {
+	html {
+		font-size: 1rem;
+	}
+}
