@@ -16,7 +16,9 @@
 		</a>
 		<!-- BurgerMenu Button -->
 		<button id="menuButton" type="button" on:click={() => (menuOpen = !menuOpen)}>
-			<div class="relative flex justify-center items-center">
+			<div
+				class="relative flex justify-center items-center w-[2.35rem] h-[2.35rem] sm:w-[3.125rem] sm:h-[3.125rem]"
+			>
 				<svg
 					width="50"
 					height="50"
@@ -57,7 +59,7 @@
 			<a href="/projects/" on:click={() => (menuOpen = !menuOpen)}>
 				<div class="group flex flex-row p-[0.625rem] space-x-[0.625rem]">
 					<span class="text-[1.3125rem] sm:text-[1.75rem] text-[#a89984]"> >> </span>
-					<span class="text-[1.5] sm:text-[2rem] text-[#ebdbb2] group-hover:text-[#b8bb26]">
+					<span class="text-[1.5rem] sm:text-[2rem] text-[#ebdbb2] group-hover:text-[#b8bb26]">
 						Projects
 					</span>
 				</div>
