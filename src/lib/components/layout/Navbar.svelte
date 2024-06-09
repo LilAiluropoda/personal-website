@@ -10,15 +10,13 @@
 		<!-- UserName -->
 		<a href="/" on:click={() => (menuOpen = false)}>
 			<div class="flex flex-row">
-				<span class="text-[1.7rem] sm:text-[2.25rem] text-[#fe8019]"> Lil </span>
-				<span class="text-[1.7rem] sm:text-[2.25rem] text-[#ebdbb2]"> Ailuropoda </span>
+				<span class="text-[2.25rem] text-[#fe8019]"> Lil </span>
+				<span class="text-[2.25rem] text-[#ebdbb2]"> Ailuropoda </span>
 			</div>
 		</a>
 		<!-- BurgerMenu Button -->
 		<button id="menuButton" type="button" on:click={() => (menuOpen = !menuOpen)}>
-			<div
-				class="relative flex justify-center items-center w-[2.35rem] h-[2.35rem] sm:w-[3.125rem] sm:h-[3.125rem]"
-			>
+			<div class="relative flex justify-center items-center">
 				<svg
 					width="50"
 					height="50"
@@ -50,26 +48,20 @@
 			<!-- MenuItem/AboutMe -->
 			<a href="/about/" on:click={() => (menuOpen = !menuOpen)}>
 				<div class="group flex flex-row p-[0.625rem] space-x-[0.625rem]">
-					<span class="text-[1.3125rem] sm:text-[1.75rem] text-[#a89984]"> >> </span>
-					<span class="text-[1.5rem] sm:text-[2rem] text-[#ebdbb2] group-hover:text-[#8ec07c]">
-						About Me
-					</span>
+					<span class="text-[1.75rem] text-[#a89984]"> >> </span>
+					<span class="text-[2rem] text-[#ebdbb2] group-hover:text-[#8ec07c]"> About Me </span>
 				</div>
 			</a>
 			<a href="/projects/" on:click={() => (menuOpen = !menuOpen)}>
 				<div class="group flex flex-row p-[0.625rem] space-x-[0.625rem]">
-					<span class="text-[1.3125rem] sm:text-[1.75rem] text-[#a89984]"> >> </span>
-					<span class="text-[1.5rem] sm:text-[2rem] text-[#ebdbb2] group-hover:text-[#b8bb26]">
-						Projects
-					</span>
+					<span class="text-[1.75rem] text-[#a89984]"> >> </span>
+					<span class="text-[2rem] text-[#ebdbb2] group-hover:text-[#b8bb26]"> Projects </span>
 				</div>
 			</a>
 			<a href="/experience/" on:click={() => (menuOpen = !menuOpen)}>
 				<div class="group flex flex-row p-[0.625rem] space-x-[0.625rem]">
-					<span class="text-[1.3125rem] sm:text-[1.75rem] text-[#a89984]"> >> </span>
-					<span class="text-[1.3125rem] sm:text-[2rem] text-[#ebdbb2] group-hover:text-[#83a598]">
-						Experience
-					</span>
+					<span class="text-[1.75rem] text-[#a89984]"> >> </span>
+					<span class="text-[2rem] text-[#ebdbb2] group-hover:text-[#83a598]"> Experience </span>
 				</div>
 			</a>
 		</div>
