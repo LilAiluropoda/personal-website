@@ -16,6 +16,10 @@
 	});
 </script>
 
+<svelte:head>
+	<title>My Experience</title>
+</svelte:head>
+
 <div
 	class="flex flex-col px-[0.625rem] pb-[5rem] space-y-[0.625rem] w-full min-h-screen z-0 lg:px-[25%]"
 >

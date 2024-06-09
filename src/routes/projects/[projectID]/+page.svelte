@@ -17,6 +17,8 @@
 	)[0][1].default;
 </script>
 
+<svelte:head><title>{project.projectName}</title></svelte:head>
+
 <div
 	class="flex flex-col px-[0.625rem] pb-[5rem] space-y-[0.625rem] w-full min-h-screen z-0 lg:px-[25%]"
 >
