@@ -36,9 +36,16 @@
 		"@sveltejs/adapter-vercel": "^5.7.2",
 		"@types/node": "^22.15.30",
 		"autoprefixer": "^10.4.21",
+		"cookie": "^1.0.2",
+		"debug": "^4.4.1",
+		"esbuild": "^0.25.5",
+		"path-to-regexp": "^8.2.0",
 		"postcss": "^8.5.4",
+		"semver": "^7.7.2",
 		"svelte-markdown": "^0.4.1",
 		"tailwindcss": "^3.4.17",
+		"tar": "^7.4.3",
+		"undici": "^7.10.0",
 		"vercel": "^34.4.0"
 	},
 	"pnpm": {
