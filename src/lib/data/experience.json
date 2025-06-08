@@ -1,12 +1,21 @@
 [
 	{
+		"ID": 11,
+		"year": 2024,
+		"type": "WRK",
+		"title": "Software Engineer Intern",
+		"org": "Pamalican Asset Management",
+		"tags": ["Python", "AWS", "VBA", "Bloomberg Terminal"],
+		"content": "Can't say, signed an NDA ¯\\_(ツ)_/¯"
+	},
+	{
 		"ID": 10,
 		"year": 2024,
 		"type": "WRK",
 		"title": "Data Analytics Intern",
 		"org": "Société Générale CIB",
 		"tags": ["Python", "LangChain"],
-		"content": "Can't say, signed an NDA ¯\\_(ツ)_/¯"
+		"content": "Coming Soon! (Sorry I am too busy at the moment!)"
 	},
 	{
 		"ID": 9,
