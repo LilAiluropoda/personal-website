@@ -22,9 +22,12 @@
 			['VS Code', 'VSCode'],
 			// Web dev
 			['SvelteKit', 'Svelte'],
+			['AngularJS', 'AngularJS'],
+			['NextJS', 'NextJS'],
 			['Vite.js', 'Vite'],
 			['Flask', 'Flask'],
 			['AWS', 'AWS'],
+			['PostgreSQL', 'PostgresSQL'],
 			// ML
 			['PyTorch', 'PyTorch'],
 			['SciKit-Learn', 'SKLearn'],
@@ -32,8 +35,10 @@
 			['Matplotlib', 'Matplotlib'],
 			['Selenium', 'Selenium'],
 			['LangChain', 'Meme'],
+			['OpenAI SDK', 'OpenAI'],
 			// Finance
-			['Bloomberg Terminal', 'Meme']
+			['Bloomberg Terminal', 'Meme'],
+			['Refinitiv', 'Meme'],
 		]);
 
 		let res = new Map();
