@@ -20,7 +20,7 @@ No plan for now.
 
 # GitHub Repo Link
 
-https://github.com/LilAiluropoda/herb-text-analysis
+https://github.com/LilAiluropoda/CUHK-Data-Analytics-Practice-Opportunity-2021
 
 # References
 

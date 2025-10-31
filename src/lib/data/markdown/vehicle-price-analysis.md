@@ -23,7 +23,7 @@ No plan for now.
 
 # GitHub Repo Link
 
-https://github.com/LilAiluropoda/vehicle-price-analysis
+https://github.com/LilAiluropoda/SEEM2460-Introduction-To-Data-Science
 
 # References
 

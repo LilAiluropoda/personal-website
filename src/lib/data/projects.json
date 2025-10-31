@@ -7,6 +7,20 @@
 		"description": "personal-website.md"
 	},
 	{
+		"projectID": "ga-optimized-rsima",
+		"projectName": "GA-MLP Optimized RSI-MA Trading Strategy",
+		"previewImage": "/images/projects/ga-optimized-rsima.png",
+		"tags": ["Python", "Matplotlib", "PyTorch", "SQL", "PostgreSQL"],
+		"description": "ga-optimized-rsima.md"
+	},
+	{
+		"projectID": "prism-ta",
+		"projectName": "Market Condition Adaptive Trading Agent",
+		"previewImage": "/images/projects/prism-ta.png",
+		"tags": ["Python", "Matplotlib", "PyTorch", "SQL", "PostgreSQL"],
+		"description": "prism-ta.md"
+	},
+	{
 		"projectID": "9kickshop",
 		"projectName": "9Kick Shopping Platform",
 		"previewImage": "/images/projects/9kickshop.png",

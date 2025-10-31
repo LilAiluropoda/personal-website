@@ -42,7 +42,7 @@ No plan for now.
 
 # GitHub Repo Link
 
-https://github.com/LilAiluropoda/CSCI3170-SalesSystem
+https://github.com/LilAiluropoda/CSCI3170-Introduction-To-Database-Systems
 
 # References
 

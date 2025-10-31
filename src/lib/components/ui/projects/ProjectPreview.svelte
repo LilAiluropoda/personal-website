@@ -20,7 +20,7 @@
 	<!-- Project Name -->
 	<div class="flex flex-col justify-start items-start">
 		<span class="text-[1.25rem] text-[#a89984]">Project Name:</span>
-		<span class="text-[1.5rem] text-[#b8bb26] font-bold"> {`${project.projectName}`}</span>
+		<span class="text-[1.5rem] text-[#b8bb26] font-bold text-left"> {`${project.projectName}`}</span>
 	</div>
 	<!-- Project Tags -->
 	<div class="flex flex-col justify-start items-start space-y-[0.625rem]">

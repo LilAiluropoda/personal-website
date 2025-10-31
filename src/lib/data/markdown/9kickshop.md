@@ -22,7 +22,7 @@ This project is considered as Completed and there is no plan for enhancement.
 
 # GitHub Repo Link
 
-https://github.com/LilAiluropoda/CSCI3100-9Kicks
+https://github.com/LilAiluropoda/CSCI3100-Software-Engineering
 
 # References
 
