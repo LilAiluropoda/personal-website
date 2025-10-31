@@ -5,15 +5,28 @@
 	export let containerStyle: string;
 	export let containerTitleStyle: string;
 
-	const DEStack = mapping(['Arch Linux', 'Git', 'Vim', 'VS Code']);
-	const WDStack = mapping(['SvelteKit', 'Vite.js', 'Flask', 'AWS']);
+	const DEStack = mapping([
+		'Arch Linux', 
+		'Git', 
+		'Vim', 
+		'VS Code'
+	]);
+	const WDStack = mapping([
+		'SvelteKit', 
+		'AngularJS', 
+		'NextJS', 
+		'Vite.js', 
+		'FastAPI', 
+		'AWS'
+	]);
 	const MLStack = mapping([
 		'PyTorch',
 		'SciKit-Learn',
 		'Pandas',
 		'Matplotlib',
 		'Selenium',
-		'LangChain'
+		'LangChain',
+		'OpenAI SDK'
 	]);
 </script>
 

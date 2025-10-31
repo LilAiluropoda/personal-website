@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Propic from '$lib/images/about/propic.jpg';
+	import Propic from '$lib/images/about/propic_2025.png';
 	export let containerStyle: string;
 	export let containerTitleStyle: string;
 </script>

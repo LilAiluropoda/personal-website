@@ -26,6 +26,7 @@
 			['NextJS', 'NextJS'],
 			['Vite.js', 'Vite'],
 			['Flask', 'Flask'],
+			['FastAPI', 'FastAPI'],
 			['AWS', 'AWS'],
 			['PostgreSQL', 'PostgresSQL'],
 			// ML

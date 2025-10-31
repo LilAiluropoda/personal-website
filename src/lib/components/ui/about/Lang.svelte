@@ -6,19 +6,12 @@
 	export let containerTitleStyle: string;
 
 	let langStack = mapping([
-		'C',
-		'C++',
-		'Java',
 		'Python',
 		'TypeScript',
 		'VBA',
 		'Shell',
-		'Lua',
 		'Powershell',
 		'SQL',
-		'HTML',
-		'CSS',
-		'Tailwind CSS'
 	]);
 </script>
 

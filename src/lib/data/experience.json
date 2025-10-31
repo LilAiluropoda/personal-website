@@ -6,7 +6,7 @@
 		"title": "Graduation - First Class Honour",
 		"org": "The Chinese University of Hong Kong",
 		"tags": [],
-		"content": "Passed the tutorial of my life. I am on my own now."
+		"content": "Passed the tutorial of my life. Where do I go from here?"
 	},
 	{
 		"ID": 13,
@@ -23,7 +23,7 @@
 		"type": "WRK",
 		"title": "Technology Summer Analyst",
 		"org": "Morgan Stanley",
-		"tags": ["Python", "TypeScript", "AngularJS", "OpenAI SDK"],
+		"tags": ["Python", "FastAPI", "TypeScript", "AngularJS", "OpenAI SDK"],
 		"content": "Engineered a POC multi-AI-agent financial statement validation application in Python; reduced verification for 100+ page statements from ~3 days to ~30 minutes (~98% faster); autonomously derives table verification formulas and validates tables, paragraphs, and formatting; built extensible prompts to adapt to new statement types; designed a responsive Angular UI."
 	},
 	{
@@ -32,7 +32,7 @@
 		"type": "WRK",
 		"title": "Front Office Developer Intern",
 		"org": "Pamalican Asset Management",
-		"tags": ["Python", "PostgreSQL", "Bloomberg Terminal", "Refinitiv", "OpenAI SDK"],
+		"tags": ["Python", "FastAPI", "PostgreSQL", "Bloomberg Terminal", "Refinitiv", "OpenAI SDK"],
 		"content": "Built a Generative AI–powered equity research report generation system integrating Bloomberg and Refinitiv via a robust ETL pipeline and PostgreSQL; cut report preparation time by ~50% and improved analytical accuracy. Architected and deployed a portfolio risk monitoring dashboard with automated data collection, risk indicator calculation, and interactive visualizations; accelerated risk identification and response. Developed a research report data lake with GAI summarization, processing 1,000+ broker reports per month and reducing research analysis time by ~80%."
 	},
 	{
