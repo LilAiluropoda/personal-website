@@ -17,7 +17,28 @@
 </script>
 
 <svelte:head>
-	<title>My Experience</title>
+	<title>Experience | Steve Cheng</title>
+	<meta
+		name="description"
+		content="Steve Cheng's professional experience and work history — a Computer Science student at CUHK."
+	/>
+	<meta
+		name="keywords"
+		content="Steve Cheng, experience, work history, computer science, CUHK, developer"
+	/>
+	<meta property="og:title" content="Experience | Steve Cheng" />
+	<meta
+		property="og:description"
+		content="Steve Cheng's professional experience and work history — a Computer Science student at CUHK."
+	/>
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="/images/icon_light.png" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="Experience | Steve Cheng" />
+	<meta
+		name="twitter:description"
+		content="Steve Cheng's professional experience and work history — a Computer Science student at CUHK."
+	/>
 </svelte:head>
 
 <div

@@ -17,7 +17,31 @@
 	)[0][1].default;
 </script>
 
-<svelte:head><title>{project.projectName}</title></svelte:head>
+<svelte:head>
+	<title>{project.projectName} | Steve Cheng</title>
+	<meta
+		name="description"
+		content="Details about {project.projectName} — a project by Steve Cheng."
+	/>
+	<meta
+		name="keywords"
+		content="Steve Cheng, {project.projectName}, project, portfolio, {project.tags.join(', ')}"
+	/>
+	<meta property="og:title" content="{project.projectName} | Steve Cheng" />
+	<meta
+		property="og:description"
+		content="Details about {project.projectName} — a project by Steve Cheng."
+	/>
+	<meta property="og:type" content="article" />
+	<meta property="og:image" content={project.previewImage} />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="{project.projectName} | Steve Cheng" />
+	<meta
+		name="twitter:description"
+		content="Details about {project.projectName} — a project by Steve Cheng."
+	/>
+	<meta name="twitter:image" content={project.previewImage} />
+</svelte:head>
 
 <div
 	class="flex flex-col px-[0.625rem] pb-[5rem] space-y-[0.625rem] w-full min-h-screen z-0 lg:px-[25%]"
