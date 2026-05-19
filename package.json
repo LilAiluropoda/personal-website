@@ -33,6 +33,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@auth/sveltekit": "^1.11.2",
 		"@sveltejs/adapter-vercel": "^5.7.2",
 		"@types/node": "^22.15.30",
 		"autoprefixer": "^10.4.21",
