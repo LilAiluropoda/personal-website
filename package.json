@@ -51,6 +51,10 @@
 	"pnpm": {
 		"patchedDependencies": {
 			"svelte-markdown@0.4.1": "patches/svelte-markdown@0.4.1.patch"
-		}
+		},
+		"onlyBuiltDependencies": [
+			"esbuild",
+			"svelte-preprocess"
+		]
 	}
 }
