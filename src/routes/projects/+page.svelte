@@ -11,7 +11,30 @@
 	}
 </script>
 
-<svelte:head><title>Project List</title></svelte:head>
+<svelte:head
+	><title>Projects | Steve Cheng</title>
+	<meta
+		name="description"
+		content="Explore Steve Cheng's projects — from web development and machine learning to trading strategies and Linux customisation."
+	/>
+	<meta
+		name="keywords"
+		content="Steve Cheng, projects, portfolio, web development, machine learning, SvelteKit, Python"
+	/>
+	<meta property="og:title" content="Projects | Steve Cheng" />
+	<meta
+		property="og:description"
+		content="Explore Steve Cheng's projects — from web development and machine learning to trading strategies and Linux customisation."
+	/>
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="/images/icon_light.png" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="Projects | Steve Cheng" />
+	<meta
+		name="twitter:description"
+		content="Explore Steve Cheng's projects — from web development and machine learning to trading strategies and Linux customisation."
+	/>
+</svelte:head>
 
 <div
 	class="flex flex-col px-[0.625rem] pb-[5rem] space-y-[0.625rem] w-full min-h-screen z-0 lg:px-[25%]"

@@ -7,7 +7,28 @@
 </script>
 
 <svelte:head>
-	<title>About Me</title>
+	<title>About Me | Steve Cheng</title>
+	<meta
+		name="description"
+		content="Learn about Steve Cheng — a Computer Science student at CUHK passionate about development, food, music, sceneries, and new knowledge."
+	/>
+	<meta
+		name="keywords"
+		content="Steve Cheng, about, computer science, CUHK, developer, portfolio"
+	/>
+	<meta property="og:title" content="About Me | Steve Cheng" />
+	<meta
+		property="og:description"
+		content="Learn about Steve Cheng — a Computer Science student at CUHK passionate about development, food, music, sceneries, and new knowledge."
+	/>
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="/images/icon_light.png" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="About Me | Steve Cheng" />
+	<meta
+		name="twitter:description"
+		content="Learn about Steve Cheng — a Computer Science student at CUHK passionate about development, food, music, sceneries, and new knowledge."
+	/>
 </svelte:head>
 
 <div
