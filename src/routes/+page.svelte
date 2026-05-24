@@ -4,7 +4,7 @@
 
 <svelte:head>
 	<title>Steve's Homepage</title>
-	<meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE" />
+	<meta name="google-site-verification" content="R1EovOpweMw-geCJCOehCRPRBlVlEDR8f3uOlPRfVPc" />
 	<meta
 		name="description"
 		content="Steve Cheng's personal website — Computer Science student at CUHK, passionate about technology, food, music, and new knowledge."
