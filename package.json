@@ -49,6 +49,10 @@
 		"vercel": "^34.4.0"
 	},
 	"pnpm": {
+		"overrides": {
+			"esbuild": ">=0.25.5",
+			"debug": ">=4.4.1"
+		},
 		"patchedDependencies": {
 			"svelte-markdown@0.4.1": "patches/svelte-markdown@0.4.1.patch"
 		},
